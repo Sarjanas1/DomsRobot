@@ -150,12 +150,12 @@ def get_id(update: Update, context: CallbackContext):
     else:
         if chat.type == "private":
             msg.reply_text(
-                f"ʏᴏᴜʀ ᴜsᴇʀ ɪᴅ ɪs <code>{chat.id}</code>.", parse_mode=ParseMode.HTML
+                f"ɪᴅ ᴘᴇɴɢɢᴜɴᴀ ᴀɴᴅᴀ ᴀᴅᴀʟᴀʜ <code>{chat.id}</code>.", parse_mode=ParseMode.HTML
             )
 
         else:
             msg.reply_text(
-                f"ᴛʜɪs ɢʀᴏᴜᴩ's ɪᴅ ɪs <code>{chat.id}</code>.", parse_mode=ParseMode.HTML
+                f"ɪᴅ ɢʀᴏᴜᴘ ɪɴɪ ᴀᴅᴀʟᴀʜ <code>{chat.id}</code>.", parse_mode=ParseMode.HTML
             )
 
 
@@ -319,9 +319,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ᴅᴏɴᴀsɪ", url="https://telegra.ph/file/87cf5d0dc44bad8ddc9a8.jpg"),
+                                "ᴅᴏɴᴀsɪ", url="https://telegra.ph/file/0b209e6d3384acc75c043.jpg"),
                             InlineKeyboardButton(
-                                "ᴏᴡɴᴇʀ", url="https://t.me/EROR_404_NF"),
+                                "ᴏᴡɴᴇʀ", url="https://t.me/milkfortunate"),
                         ],
                     ]
                 ),
@@ -406,7 +406,7 @@ def set_about_me(update: Update, context: CallbackContext):
 @run_async
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "🤖 <b>Stats For <a href='https://t.me/ZoidsXRobot_bot'> Zoid Robot </a>:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "🤖 <b>Stats For <a href='https://t.me/HinataManage_Bot'> Hinata Robot </a>:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
     update.effective_message.reply_text(
         result,
