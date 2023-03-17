@@ -15,7 +15,7 @@ from telethon.tl.custom import Message
 from telethon.tl.types import MessageService
 from telethon.utils import get_display_name, get_peer_id
 
-from EmikoRobot.events import register
+from KynanRobot.events import register
 
 ##api
 
