@@ -73,7 +73,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʟʟᴏ {} !* [🎉](https://telegra.ph/file/e684d81a846cb6a8369ef.jpg)
+*ʜᴇʟʟᴏ {} !* [🏵](https://telegra.ph/file/171f811fc6233014ff7e7.jpg)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━
 {} ᴅɪʙᴜᴀᴛ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇʟᴏʟᴀ ᴅᴀɴ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴋ ᴅɪɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ʙᴇʀʙᴀɢᴀɪ ꜰɪᴛᴜʀ.
@@ -82,15 +82,15 @@ PM_START_TEXT = """
 ➻ ᴜsᴇʀs » `{}`
 ➻ ɢʀᴏᴜᴘꜱ » `{}`
 ━━━━━━━━━━━━━━━━━━━━━━━━
- ᴛᴇᴋᴀɴ /help ᴀᴛᴀᴜ /mhelp ᴜɴᴛᴜᴋ ᴘᴇʀɪɴᴛᴀʜ ꜱᴀʏᴀ ʏᴀɴɢ ᴛᴇʀꜱᴇᴅɪᴀ.
+ ᴛᴇᴋᴀɴ /help ᴜɴᴛᴜᴋ ᴘᴇʀɪɴᴛᴀʜ ꜱᴀʏᴀ ʏᴀɴɢ ᴛᴇʀꜱᴇᴅɪᴀ.
 ━━━━━━━━━━━━━━━━━━━━━━━━
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/EROR_404_NF"
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/milkfortunate"
         ),
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/ZoidsSupport"
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/deliciousmilk"
         ),
     ],
     [
@@ -102,7 +102,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ᴛᴀᴍʙᴀʜᴋᴀɴ ᴢᴏɪᴅ➗", url="https://t.me/ZoidsXRobot_bot?startgroup=true"
+            text="➗ᴛᴀᴍʙᴀʜᴋᴀɴ ʜɪɴᴀᴛᴀ➗", url="https://t.me/HinataManage_Bot?startgroup=true"
         ),
      ],
 ]
@@ -220,7 +220,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ʜɪ, ɪ,ᴍ ᴢᴏɪᴅ x ʀᴏʙᴏᴛ sᴇɴᴀɴɢ ʙᴇʀᴛᴇᴍᴜ ᴅᴇɴɢᴀɴ ᴍᴜ \n<b>​  :</b> <code>{}</code>".format(
+            caption="ʜɪ,ʜɪɴᴀᴛᴀ sᴇɴᴀɴɢ ʙᴇʀᴛᴇᴍᴜ ᴅᴇɴɢᴀɴ ᴍᴜ \n<b>​  :</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -391,7 +391,7 @@ def kynan_about_callback(update, context):
 
     elif query.data == "kynan_admin":
         query.message.edit_text(
-            text=f"*✮ PERINTAH ADMIN."
+            text=f"*👨‍💻 ᴘᴇʀɪɴᴛᴀʜ ᴀᴅᴍɪɴ."
             "\n\nc singkatan dari pemutaran Channel."
             "\n » /pause or /cpause - Jeda musik yang diputar."
             "\n » /resume or /cresume- Lanjutkan musik yang dijeda."
@@ -415,7 +415,7 @@ def kynan_about_callback(update, context):
             "\n » /authusers - Periksa DAFTAR AUTH grup",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="⩹", callback_data="kynan_")]]
+                [[InlineKeyboardButton(text="«", callback_data="kynan_")]]
             ),
         )
     elif query.data == "kynan_notes":
@@ -479,7 +479,7 @@ def kynan_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="⩹", callback_data="kynan_")
+                    InlineKeyboardButton(text="«", callback_data="kynan_")
                  ]
                 ]
             ),
@@ -492,11 +492,11 @@ def kynan_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ϙʀɪs", url="https://telegra.ph/file/87cf5d0dc44bad8ddc9a8.jpg"),
-                    InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", url="https://t.me/EROR_404_NF"),
+                    InlineKeyboardButton(text="ϙʀɪs", url="https://telegra.ph/file/0b209e6d3384acc75c043.jpg"),
+                    InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", url="https://t.me/milkfortunate"),
                  ],
                  [
-                    InlineKeyboardButton(text="", callback_data="kynan_back"),
+                    InlineKeyboardButton(text="« ᴋᴇᴍʙᴀʟɪ", callback_data="kynan_back"),
                  ]
                 ]
             ),
@@ -575,12 +575,12 @@ def get_help(update: Update, context: CallbackContext):
             )
             return
         update.effective_message.reply_text(
-            "ᴄʜᴏᴏsᴇ ᴀɴ ᴏᴩᴛɪᴏɴ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʜᴇʟᴩ.",
+            "ᴘɪʟɪʜ ᴏᴘsɪ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ʙᴀɴᴛᴜᴀɴ.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="ᴏᴩᴇɴ ɪɴ ᴩʀɪᴠᴀᴛᴇ",
+                            text="ʙᴜᴋᴀ ᴅɪ ᴘʀɪᴠᴀᴛᴇ",
                             url="https://t.me/{}?start=help".format(
                                 context.bot.username
                             ),
@@ -588,7 +588,7 @@ def get_help(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴏᴩᴇɴ ʜᴇʀᴇ",
+                            text="ʙᴜᴋᴀ ᴅɪ sɪɴɪ",
                             callback_data="help_back",
                         )
                     ],
@@ -800,7 +800,7 @@ def main():
                 chat_id=f"@{SUPPORT_CHAT}",
                 photo=START_IMG,
                 caption=f"""
-**  ᴢᴏɪᴅ x ʀᴏʙᴏᴛ ᴀᴋᴜ ʜɪᴅᴜᴘ**
+**ʜᴀɪ ᴀᴋᴜ ʜɪɴᴀᴛᴀ ᴀᴋᴜ ʜɪᴅᴜᴘ**
 
 ┏━━━━━━━━━━━━━━━━━━━┓
 ┠ **ᴘʏᴛʜᴏɴ :** `{y()}`
