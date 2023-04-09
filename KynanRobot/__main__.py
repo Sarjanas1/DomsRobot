@@ -73,7 +73,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʟʟᴏ {} !* [✨](https://telegra.ph/file/a519a4a9e070359f063a5.jpg)
+*ʜᴇʟʟᴏ {} !* [🌼](https://telegra.ph/file/5e0cfbe2cd31bdabfe8b5.jpg)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━
 {} ᴅɪʙᴜᴀᴛ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇʟᴏʟᴀ ᴅᴀɴ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴋ ᴅɪɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ʙᴇʀʙᴀɢᴀɪ ꜰɪᴛᴜʀ.
@@ -88,9 +88,9 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/sayadoms"
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/milkfortunate"
         ),
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/ShutdownBoss"
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/deliciousmilk"
         ),
     ],
     [
@@ -102,7 +102,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ᴛᴀᴍʙᴀʜᴋᴀɴ ᴅᴏᴍs➗", url="https://t.me/domsxrobot?startgroup=true"
+            text="➗ᴛᴀᴍʙᴀʜᴋᴀɴ ʜɪɴᴀᴛᴀ➗", url="https://t.me/HinataManage_Bot?startgroup=true"
         ),
      ],
 ]
@@ -493,7 +493,7 @@ def kynan_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="ϙʀɪs", url="https://telegra.ph/file/0b209e6d3384acc75c043.jpg"),
-                    InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", url="https://t.me/sayadoms"),
+                    InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", url="https://t.me/milkfortunate"),
                  ],
                  [
                     InlineKeyboardButton(text="« ᴋᴇᴍʙᴀʟɪ", callback_data="kynan_back"),
@@ -800,7 +800,7 @@ def main():
                 chat_id=f"@{SUPPORT_CHAT}",
                 photo=START_IMG,
                 caption=f"""
-**ʜᴀɪ ᴀᴋᴜ ᴅᴏᴍs ᴀᴋᴜ ʜɪᴅᴜᴘ**
+**ʜᴀɪ ᴀᴋᴜ ʜɪɴᴀᴛᴀ ᴀᴋᴜ ʜɪᴅᴜᴘ**
 
 ┏━━━━━━━━━━━━━━━━━━━┓
 ┠ **ᴘʏᴛʜᴏɴ :** `{y()}`
