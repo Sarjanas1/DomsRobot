@@ -73,7 +73,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʟʟᴏ {} !* [🏵](https://telegra.ph/file/171f811fc6233014ff7e7.jpg)
+*ʜᴇʟʟᴏ {} !* [✨](https://telegra.ph/file/a519a4a9e070359f063a5.jpg)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━
 {} ᴅɪʙᴜᴀᴛ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇʟᴏʟᴀ ᴅᴀɴ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴋ ᴅɪɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ʙᴇʀʙᴀɢᴀɪ ꜰɪᴛᴜʀ.
@@ -88,9 +88,9 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/milkfortunate"
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/sayadoms"
         ),
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/deliciousmilk"
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/ShutdownBoss"
         ),
     ],
     [
@@ -102,7 +102,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ᴛᴀᴍʙᴀʜᴋᴀɴ ʜɪɴᴀᴛᴀ➗", url="https://t.me/HinataManage_Bot?startgroup=true"
+            text="➗ᴛᴀᴍʙᴀʜᴋᴀɴ ᴅᴏᴍs➗", url="https://t.me/domsxrobot?startgroup=true"
         ),
      ],
 ]
@@ -220,7 +220,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ʜɪ,ʜɪɴᴀᴛᴀ sᴇɴᴀɴɢ ʙᴇʀᴛᴇᴍᴜ ᴅᴇɴɢᴀɴ ᴍᴜ \n<b>​  :</b> <code>{}</code>".format(
+            caption="ʜɪ,{mention} sᴇɴᴀɴɢ ʙᴇʀᴛᴇᴍᴜ ᴅᴇɴɢᴀɴ ᴍᴜ \n<b>​  :</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -430,12 +430,12 @@ def kynan_about_callback(update, context):
             "\n\n » /queue or /cqueue- Periksa Daftar Antrian Musik",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="⩹", callback_data="kynan_")]]
+                [[InlineKeyboardButton(text="«", callback_data="kynan_")]]
             ),
         )
     elif query.data == "kynan_support":
         query.message.edit_text(
-            text="*📝 Bantuan Perintah Saya*"
+            text="*Bantuan Perintah Saya* [📝](https://telegra.ph/file/b184dfb8d7e84edb15c5b.jpg)"
             "\npilih tombol dibawah untuk melihat bantuan perintah.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -493,7 +493,7 @@ def kynan_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="ϙʀɪs", url="https://telegra.ph/file/0b209e6d3384acc75c043.jpg"),
-                    InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", url="https://t.me/milkfortunate"),
+                    InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", url="https://t.me/sayadoms"),
                  ],
                  [
                     InlineKeyboardButton(text="« ᴋᴇᴍʙᴀʟɪ", callback_data="kynan_back"),
@@ -800,7 +800,7 @@ def main():
                 chat_id=f"@{SUPPORT_CHAT}",
                 photo=START_IMG,
                 caption=f"""
-**ʜᴀɪ ᴀᴋᴜ ʜɪɴᴀᴛᴀ ᴀᴋᴜ ʜɪᴅᴜᴘ**
+**ʜᴀɪ ᴀᴋᴜ ᴅᴏᴍs ᴀᴋᴜ ʜɪᴅᴜᴘ**
 
 ┏━━━━━━━━━━━━━━━━━━━┓
 ┠ **ᴘʏᴛʜᴏɴ :** `{y()}`
