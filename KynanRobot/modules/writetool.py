@@ -21,9 +21,9 @@ def handwrite(update: Update, context: CallbackContext):
         caption=f"""
 Successfully Written Text ❤️
 
-༊ **Written By :** [{BOT_NAME}](https://t.me/{BOT_USERNAME})
-༁ **Requested by :** {update.effective_user.first_name}
-ᐈ **Link :** `{req}`""",
+» **Written By :** [{BOT_NAME}](https://t.me/{BOT_USERNAME})
+» **Requested by :** {update.effective_user.first_name}
+» **Link :** `{req}`""",
         parse_mode=ParseMode.MARKDOWN,
         reply_markup=InlineKeyboardMarkup(
             [
