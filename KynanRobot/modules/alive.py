@@ -18,11 +18,11 @@ async def awake(_, message: Message):
     TEXT += "**ᴛᴇʀɪᴍᴀᴋᴀsɪʜ sᴜᴅᴀʜ ᴍᴇɴᴀᴍʙᴀʜᴋᴀɴ ᴋᴜ ᴅɪsɪɴɪ**"
     BUTTON = [
         [
-            InlineKeyboardButton("ʜᴇʟᴘ", url=f"https://t.me/HinataManage_Bot?start=help"),
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/deliciousmilk"),
+            InlineKeyboardButton("ʜᴇʟᴘ", url=f"https://t.me/domsxrobot?start=help"),
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/ShutdownBoss"),
         ],
         [
-            InlineKeyboardButton("ᴍʏ ᴏᴡɴᴇʀ", url=f"t.me/milkfortunate"),
+            InlineKeyboardButton("ᴍʏ ᴏᴡɴᴇʀ", url=f"t.me/sayadoms"),
         ]
     ]
     await message.reply_photo(
