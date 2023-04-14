@@ -113,7 +113,7 @@ __mod_name__ = "ᴛᴀɢ-ᴀʟʟ"
 __help__ = """
 ──「 ᴛᴀɢ-ᴀʟʟ 」──
 
-Hinata Can Be a Mention Bot for your group.
+ᴅᴏᴍs 〆ʀᴏʙᴏᴛ Can Be a Mention Bot for your group.
 
 Only admins can tag all.  here is a list of commands
 
