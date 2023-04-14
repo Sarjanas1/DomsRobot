@@ -73,7 +73,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʟʟᴏ {} !* [💥](https://telegra.ph/file/5e0cfbe2cd31bdabfe8b5.jpg)
+*ʜᴇʟʟᴏ {} !* [💥](https://telegra.ph/file/035a0ff75a010e089af9f.jpg)
 {} ᴅɪʙᴜᴀᴛ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇʟᴏʟᴀ ᴅᴀɴ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴋ ᴅɪɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ʙᴇʀʙᴀɢᴀɪ ꜰɪᴛᴜʀ.
 ━━━━━━━━━━━━━━━━━━━━━━━━
 ➻ ᴜᴘᴛɪᴍᴇ » `{}`
@@ -433,7 +433,7 @@ def kynan_about_callback(update, context):
         )
     elif query.data == "kynan_support":
         query.message.edit_text(
-            text="*Bantuan Perintah Saya* [📝](https://telegra.ph/file/b184dfb8d7e84edb15c5b.jpg)"
+            text="*Bantuan Perintah Saya* [📝](https://telegra.ph/file/1b93cd3f9459a703113b4.jpg)"
             "\npilih tombol dibawah untuk melihat bantuan perintah.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -798,7 +798,7 @@ def main():
                 chat_id=f"@{SUPPORT_CHAT}",
                 photo=START_IMG,
                 caption=f"""
-**ʜᴀɪ ᴀᴋᴜ ʜɪɴᴀᴛᴀ ᴀᴋᴜ ʜɪᴅᴜᴘ**
+**ʜᴀɪ ᴀᴋᴜ ᴅᴏᴍs ᴀᴋᴜ ʜɪᴅᴜᴘ**
 
 ┏━━━━━━━━━━━━━━━━━━━┓
 ┠ **ᴘʏᴛʜᴏɴ :** `{y()}`
