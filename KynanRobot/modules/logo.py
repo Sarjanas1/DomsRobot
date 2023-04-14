@@ -113,7 +113,7 @@ async def logo_gen(event):
         await telethn.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Hinata](https://t.me/HinataManage_Bot)",
+            caption="Logo by [Doms](https://t.me/domsxrobot)",
             force_document=False,
         )
         os.remove(flnme)
@@ -196,7 +196,7 @@ async def logo_(event):
         await telethn.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Hinata](https://t.me/HinataManage_Bot)",
+            caption="Logo by [Doms](https://t.me/domsxrobot)",
             force_document=False,
         )
         os.remove(flnme)
